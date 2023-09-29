@@ -31,10 +31,36 @@ let age = 21;
 
 
 // Another way to declare a string..
-const gameName = new String('kasimkc');     // String as Object
+const gameName = new String('kasim-kc');     // String as Object
 // console.table([typeof gameName, typeof name]);
 
 // console.log(gameName[1]);     // Accessing an index of a string
 // console.log(gameName.__proto__);
 
-console.log(gameName.length);
+// console.log(gameName.length);
+// console.log(gameName.charAt(2));
+// console.log(gameName.indexOf('k'));      // returned first index of 'k' though there exist one more..
+
+// Sub-string
+const newString = gameName.substring(0,5);
+// console.log(newString);
+
+// console.log(`String length ${gameName.length}`)
+const anotherString = gameName.slice(-1,7);
+// console.log(anotherString);
+
+
+// trim - replace
+const newStringOne = "    kasim   ";
+// console.log(newStringOne)
+// console.log(newStringOne.trim())   // Trims the spaces
+
+// /n for new line
+
+// replace
+const url = "https://kasim.com/kasim%20kc";
+console.log(url.replace('%20','-'));
+
+console.log(url.includes('kasim'));
+
+console.log(gameName.split('-'));      // divides string on parameter passed..
