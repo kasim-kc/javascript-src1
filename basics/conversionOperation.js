@@ -21,9 +21,15 @@ console.log(val);        // Gives Not A Number..
 // Irony :-> Type of NaN is number ..
 
 let isLoggedIn = ""
-let booleanIsLoggedIn = Boolean(isLoggedIn);
+let booleanIsLoggedIn = Boolean(isLoggedIn);     //=> false
 
 let isLoggedIn1 = "Kasim"
-let booleanIsLoggedIn1 = Boolean(isLoggedIn1);
+let booleanIsLoggedIn1 = Boolean(isLoggedIn1);   //=> true
 
 console.log(booleanIsLoggedIn1);
+
+// console.log(+true);
+// console.log("1" + 2 + 2)
+// console.log(1 + 2 + "2")
+
+
