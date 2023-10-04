@@ -48,5 +48,10 @@ console.log((Math.random()*10) + 1);   // + 1 to Avoid the possibility of genera
 const min = 10;
 const max = 20;
 
-console.log(Math.random() * (max - min + 1)); 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min); 
+console.log(Math.random() * (max - min + 1));                        
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);  
+/* The above formula is used to maximize the effiency of Math.random() function which was 
+generating random number in the range of 0 to 1.. We multiplied it with 10 and added 1 but it limited 
+us to generate values from 1 to 10.. So we generate a formula for generating a number present in range of 
+a defined min. and max.
+*/
