@@ -33,3 +33,13 @@ console.log(booleanIsLoggedIn1);
 // console.log(1 + 2 + "2")
 
 
+// +++ Prefix And PostFix Operators
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
